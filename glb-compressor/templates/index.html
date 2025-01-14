@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLB Compressor</title>
+</head>
+<body>
+    <h1>GLB File Compressor</h1>
+    <p>Upload a .glb file to compress it to under 50MB.</p>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".glb" required>
+        <button type="submit">Compress</button>
+    </form>
+</body>
+</html>
